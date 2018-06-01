@@ -1,12 +1,14 @@
 package com.example.SistemN.Repository.Lancamento;
 
-import java.util.List;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import com.example.SistemN.Model.Lancamento;
 import com.example.SistemN.Repository.filter.LancamentoFilter;
 
 public interface LancamentoRepositoryQuery {
 	
-	public List<Lancamento> filtrar(LancamentoFilter lancamentoFilter);
+	public Page<Lancamento> filtrar(LancamentoFilter lancamentoFilter, Pageable pageable);
 
 }
