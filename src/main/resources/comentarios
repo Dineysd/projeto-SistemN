@@ -1,0 +1,7 @@
+Status code:
+2xx -> sucesso;
+4xx -> erro do cliente;
+5xx ->erro no serviço/servidor/ erro interno;
+
+ser for adicionar coluna nula
+erro exceção do mysql, collum Cannot be null, coluna não pode ser nula
