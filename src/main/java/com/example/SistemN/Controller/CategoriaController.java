@@ -51,7 +51,7 @@ public class CategoriaController {
 	public Categoria buscarPeloCodigo(@PathVariable Long idCategoria) {
 		return repositorio.findOne(idCategoria);
 		
-	} exercicio*/
+	} exercicio */
 	
 	
 	@GetMapping("/{codigo}")
